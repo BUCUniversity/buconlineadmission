@@ -1,0 +1,42 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background: #f4f6f8;
+  padding: 30px;
+}
+
+.table-container {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #343a40;
+  color: #fff;
+}
+
+th, td {
+  padding: 14px 12px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 15px;
+}
+
+th {
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+  background: #f1f1f1;
+}
+
+tbody tr:hover {
+  background: #e9ecef;
+  transition: 0.3s;
+}

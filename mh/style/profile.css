@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+/* العنوان */
+.page-title {
+    text-align: center;
+    color: #0b1c8c;
+    margin-bottom: 20px;
+}
+
+/* الأزرار */
+.top-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid;
+    background: #fff;
+}
+
+.btn.edit {
+    color: #009688;
+    border-color: #009688;
+    
+}
+.btn.edit:hover {
+    background-color: #009688;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn.back {
+    color: #e53935;
+    border-color: #e53935;
+    transition: 0.5s;
+}
+.btn.back:hover {background-color: #e53935; color: #fff;}
+
+/* الكروت */
+.card {
+    background: #fafbfd;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* عنوان الكارت */
+.card-title {
+    color: #1f2a8a;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* الجريد */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 30px;
+}
+
+.grid p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.grid strong {
+    color: #000;
+}
