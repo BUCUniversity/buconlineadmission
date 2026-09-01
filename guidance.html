@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <title>buc online admission</title>
   <link rel="stylesheet" href="style/sty.css">
+  <link rel="stylesheet" href="style/guid.css">
   <!-- icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-
-
  <!-- Sidebar -->
 
 
@@ -102,96 +101,41 @@
         </div>
 
     </div>
-
-    <h2 class="title">النتيجة</h2>
-
-    <!-- Student Info -->
-   <section class="student-info">
-  <div class="info-card">
-    <table>
-      <tr>
-        <td>2024004441</td>
-        <td>رقم الطالب</td>
-      </tr>
-      <tr>
-        <td>كلية العلاج الطبيعي</td>
-        <td>اسم الكلية</td>
-      </tr>
-      <tr>
-        <td>المستوى التالت</td>
-        <td>مستوى الكلية</td>
-      </tr>
-      <tr>
-        <td>2.9</td>
-        <td>CGPA</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="info-card">
-    <table>
-      <tr>
-        <td>محمد ربيع محمد مهدي العريني</td>
-        <td>اسم الطالب</td>
-      </tr>
-      <tr>
-        <td>جامعة بدر بالقاهرة</td>
-        <td>اسم الفرع</td>
-      </tr>
-      <tr>
-        <td>عام</td>
-        <td>اسم القسم</td>
-      </tr>
-    </table>
-  </div>
-</section>
-
-
-    <!-- Grades Table -->
-    <section class="grades">
-<table>
-    <thead>
-        <tr>
-            <th>التقدير</th>
-            <th>النقاط</th>
-            <th>المادة الدراسية</th>
-            <th>كود المادة الدراسية</th>
-            <th>الفصل</th>
-            <th>السنة الدراسية</th>
-            <th>#</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>D</td>
-            <td>2.5</td>
-            <td>علم التشريح 4</td>
-            <td>BAS 2221</td>
-            <td>فصل الصيف</td>
-            <td>2025/2026</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td>D</td>
-            <td>2.5</td>
-            <td>علم النفس</td>
-            <td>BAS 2219</td>
-            <td>فصل الصيف</td>
-            <td>2025/2026</td>
-            <td>2</td>
-        </tr>
-       
-        
-    </tbody>
-</table>
-
-    </section>
-    
-    <div class="footer">
-        <p>Copyright © 2025 <strong>BUC</strong> Badr University in Cairo All Rights Reserved</p>
-        <p>Developed By - <strong>NEW SOFT</strong></p>
+<div class="header-container">
+        <div class="user-welcome">
+            مرحباً، <span class="email">MOHAMEDRABEA.2024004441@buc.edu.eg</span>
+        </div>
     </div>
-</main>
+
+    <header class="page-header">
+        <h1>تسجيل المواد</h1>
+        <div class="top-actions">
+            <button class="btn btn-secondary">🖨️ طباعة الجدول</button>
+            <button class="btn btn-danger">↩ رجوع</button>
+        </div>
+    </header>
+
+    <main class="card-container">
+        <div class="card-header">
+            2025/2026 ( فصل الصيف )
+        </div>
+        
+        <div class="card-body">
+            <div class="student-info">
+                <h2 class="student-name">محمد ربيع محمد مهدي العريني</h2>
+                <p><strong>رقم الطالب:</strong> 2024004441</p>
+                <p><strong>اسم الفرع:</strong> جامعة بدر بالقاهرة</p>
+                <p><strong>اسم الكلية:</strong> كلية العلاج الطبيعي</p>
+                <p><strong>حالة تسجيل الطالب:</strong> <span class="status">موافق عليه</span></p>
+            </div>
+
+            <div class="footer-actions">
+                <button class="btn-outline">📄 بيان نسخة مطبوعة</button>
+                <button class="btn-primary">➕ طلب سحب</button>
+            </div>
+        </div>
+    </main>
+    </main>
 
 
 <script src="main.js"></script>
